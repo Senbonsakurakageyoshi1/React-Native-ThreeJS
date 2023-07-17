@@ -118,19 +118,9 @@ export default function App() {
 
   return (
     <Canvas>
-
       <ambientLight/>
-      <pointLight position={[10,10,10]}/>
-
-
-      
+      <pointLight position={[10,10,10]}/>    
       <Shoe  animatedSensor={animatedSensor}/>
-
-
-     
-
-
-      
 
     </Canvas>
   );
